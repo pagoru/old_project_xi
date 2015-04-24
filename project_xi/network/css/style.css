@@ -1,0 +1,176 @@
+body {
+	margin: 0px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #454545;
+	image-rendering: -moz-crisp-edges; 
+	font-size: 14px;
+}
+
+header {
+	height: 8px;
+	border-bottom: 2px solid #8D8D8D;
+	padding: 16px;
+	background: none repeat scroll #17604E;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+input[type="text"]
+{
+    font-size: 12px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+input[type="submit"]
+{
+    font-size: 12px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+select {
+	font-size: 12px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin: 0px 0px 8px;
+	height: 24px;
+	border: 1px solid #17604E;
+	width: 80px;
+	padding: 3px;
+	border-top: 0px;
+}
+
+.box {
+    margin: 0px;
+	padding: 5px;
+	height: 32px;
+	border: 1px solid rgb(23, 96, 78);
+	width: 400px;
+}
+
+.h{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+}
+
+.d {
+	width: 724px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.dash {
+    border: 1px solid #17604e;
+	background: none repeat scroll 0% 0% #FFF;
+	color: #515151;
+	width: 270px;
+	padding: 8px;
+	margin-right: 16px;
+	border-top: 0px;
+	float: left;
+}
+
+.p {
+    border: 1px solid #17604e;
+	background: none repeat scroll 0% 0% #FFF;
+	color: #515151;
+	width: 400px;
+	padding: 8px;
+	border-top: 0px;
+	float: left;
+}
+
+hr {
+    height: 1px;
+    background-color: #CECECE;
+    border: 0px none;
+}
+
+.sms {
+	width: 400px;
+	position: relative;
+	height: 69px;
+	border-bottom: 1px solid #CECECE;
+}
+
+.board {
+	width: 270px;
+	position: relative;
+}
+
+.img_profile {
+	height: 40px; 
+	width: 40px;
+	float: left;
+	background-size: 40px;
+	border: 1px solid #CECECE;
+}
+
+.sms_text{
+	margin-left: 8px;
+	float: left;
+	width: 350px;
+}
+
+.postUUID{
+	margin-bottom: 8px;	
+}
+
+li{
+	display: inline;
+}
+
+ul{
+	display: inline;
+}
+
+.header a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	color: #929292;
+}
+
+.header{
+	margin-top: -4px;
+	width: 724px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.smsPost{
+	float: right;
+}
+
+.profileChar {
+	width: 220px;
+	position: relative;
+	float: left;
+	margin-left: 8px;
+}
+
+.uuid{
+	font-weight: bold;
+}
+
+.boxPrivate{
+	width: 200px;
+	height: 24px;
+	margin: 0px -5px 8px;
+	padding: 5px;
+	border: 1px solid #17604E;
+	border-top: 0px;
+}
+
+.button {
+    height: 24px;
+    margin: 0px;
+    border: 1px solid #17604E;
+	border-top: 0px;
+}
+
