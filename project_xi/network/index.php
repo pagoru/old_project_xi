@@ -5,7 +5,7 @@ include_once 'include/functions.php';
 $uuid = array("0000000000", "0523651489");
 $nick = array("pagoru", "Bob");
 $smsUUID = array("0a9aAaw3", "9r3VAaw0");
-$sms = array("¡Hola que tal estas en esta noche de tequila bom bom, hola nena!", "K TAL PAYOS?");
+$sms = array("Â¡Hola que tal estas en esta noche de tequila bom bom, hola nena!", "K TAL PAYOS?");
 
 $r = count($uuid);
 
