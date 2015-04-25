@@ -12,7 +12,12 @@
 		</div>
 	</div>
 	<div class="f">
-	asdasdasd
+		<div class="tt">
+			<a class="bold">Tag Topic</a>
+			<?php for ($i = 0; $i < 8; $i++):?>
+			<div class="tagT bold">#FirstTag<a class="tagTNum">612 tags</a></div>
+			<?php endfor;?>
+		</div>
 	</div>
 	<?php include 'footer.php';?>
 </div>

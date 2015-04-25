@@ -100,6 +100,23 @@ hr {
 	border-bottom: 1px solid #CECECE;
 }
 
+.mms {
+	width: 400px;
+	position: relative;
+	height: 288px;
+	border-bottom: 1px solid #CECECE;
+}
+
+.mmsImage {
+	border: 1px solid #CECECE;
+	background-size: 400px auto; 
+	height: 200px;
+	margin-top: 50px;
+	-webkit-box-shadow: inset 0px 0px 16px 3px rgba(0,0,0,0.53);
+	-moz-box-shadow: inset 0px 0px 16px 3px rgba(0,0,0,0.53);
+	box-shadow: inset 0px 0px 16px 3px rgba(0,0,0,0.53);
+}
+
 .board {
 	width: 270px;
 	position: relative;
@@ -166,7 +183,7 @@ a {
 }
 
 .boxPrivate{
-	width: 94.3px;
+	width: 94px;
 	height: 24px;
 	margin: 0px -5px 8px;
 	padding: 5px;
@@ -193,7 +210,7 @@ a {
 
 .reSend{
     float: right;
-    height: 15px;
+    height: 16px;
     margin-top: 3px;
     width: 75px;
     border: 1px solid #CECECE;
@@ -202,7 +219,7 @@ a {
 
 .reply{
     float: right;
-    height: 15px;
+    height: 16px;
     margin-top: 3px;
     width: 75px;
     border: 1px solid #CECECE;
@@ -212,7 +229,7 @@ a {
 
 .reSendNumbers{
     float: right;
-	height: 15px;
+	height: 16px;
 	width: 75px;
 	text-align: right;
 	border-width: 0px;
@@ -249,4 +266,18 @@ a {
 	padding: 8px;
 	margin-right: 8px;
 	margin-top: 8px;
+}
+
+.tt {
+    width: 270px;
+    position: relative;
+}
+
+.tagT{
+	margin-left: 8px;
+}
+.tagTNum{
+	font-size: 12px;
+	margin-left: 4px;
+	color: #929292;
 }
