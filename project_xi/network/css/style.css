@@ -55,10 +55,15 @@ select {
 }
 
 .d {
-	width: 724px;
+	width: 716px;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.first {
+	width: 294px;
+	float: left;
 }
 
 .dash {
@@ -67,9 +72,9 @@ select {
 	color: #515151;
 	width: 270px;
 	padding: 8px;
-	margin-right: 16px;
+	margin-right: 8px;
 	border-top: 0px;
-	float: left;
+	height: 130;
 }
 
 .p {
@@ -91,7 +96,7 @@ hr {
 .sms {
 	width: 400px;
 	position: relative;
-	height: 69px;
+	height: 72px;
 	border-bottom: 1px solid #CECECE;
 }
 
@@ -112,10 +117,12 @@ hr {
 	margin-left: 8px;
 	float: left;
 	width: 350px;
+	height: 34px;
+	overflow: hidden;
 }
 
 .postUUID{
-	margin-bottom: 8px;	
+	margin-bottom: 2px;	
 }
 
 li{
@@ -159,7 +166,7 @@ a {
 }
 
 .boxPrivate{
-	width: 200px;
+	width: 94.3px;
 	height: 24px;
 	margin: 0px -5px 8px;
 	padding: 5px;
@@ -169,8 +176,77 @@ a {
 
 .button {
     height: 24px;
-    margin: 0px;
     border: 1px solid #17604E;
 	border-top: 0px;
+	width: 54px;
 }
 
+.boxChars{
+	border-width: 0px 1px 1px;
+	border-style: none solid solid;
+	border-color: -moz-use-text-color #17604E #17604E #17604E;
+	margin: 0px -4px 8px 0px;
+	width: 200px;
+	padding: 4px;
+	border-right: 0px;
+}
+
+.reSend{
+    float: right;
+    height: 15px;
+    margin-top: 3px;
+    width: 75px;
+    border: 1px solid #CECECE;
+    border-bottom: 0px;
+}
+
+.reply{
+    float: right;
+    height: 15px;
+    margin-top: 3px;
+    width: 75px;
+    border: 1px solid #CECECE;
+    border-bottom: 0px;
+    border-left: 0px;
+}
+
+.reSendNumbers{
+    float: right;
+	height: 15px;
+	width: 75px;
+	text-align: right;
+	border-width: 0px;
+	background-color: rgba(255, 255, 255, 0);
+	margin-top: 3px;
+	color: #CECECE;
+}
+
+.profileDesc {
+	margin-top: 28px;
+	color: #929292;
+	margin-bottom: 8px;
+	height: 42px;
+	border-bottom: 1px solid #CECECE;
+}
+
+.dashContacts {
+	width: 67.5px;
+	text-align: center;
+	float: left;
+	font-size: 13px;
+	color: #929292;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.f {
+    border: 1px solid #17604e;
+	background: none repeat scroll 0% 0% #FFF;
+	color: #515151;
+	width: 270px;
+	padding: 8px;
+	margin-right: 8px;
+	margin-top: 8px;
+}
