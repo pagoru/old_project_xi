@@ -46,6 +46,15 @@ select {
 	width: 400px;
 }
 
+.boxMms {
+    margin: 0px;
+	padding: 5px;
+	height: 24px;
+	border: 1px solid #17604E;
+	width: 400px;
+	border-top: 0px;
+}
+
 .h{
 	position: fixed;
 	top: 0;
@@ -85,6 +94,7 @@ select {
 	padding: 8px;
 	border-top: 0px;
 	float: left;
+	margin-bottom: 20px;
 }
 
 hr {
@@ -108,13 +118,36 @@ hr {
 }
 
 .mmsImage {
-	border: 1px solid #CECECE;
-	background-size: 400px auto; 
-	height: 200px;
+	border: 1px solid #CECECE; 
+	height: 196px;
+	background-position:center center; 
+	background-repeat:no-repeat; 
 	margin-top: 50px;
-	-webkit-box-shadow: inset 0px 0px 16px 3px rgba(0,0,0,0.53);
-	-moz-box-shadow: inset 0px 0px 16px 3px rgba(0,0,0,0.53);
-	box-shadow: inset 0px 0px 16px 3px rgba(0,0,0,0.53);
+	cursor: zoom-in;
+	border-radius: 0px 0px 0px 16px;
+	margin-bottom: 4px;
+	image-rendering: auto;
+	overflow: hidden;
+}
+
+.mmsWeb {
+	border: 1px solid #CECECE; 
+	height: 16px;
+	margin-top: 50px;
+	border-radius: 0px 0px 0px 16px;
+	margin-bottom: 4px;
+	color: #515151;
+	padding: 5px;
+}
+
+.mmsFavicon{
+	background-position:center center; 
+	background-repeat:no-repeat; 
+	image-rendering: auto;
+}
+
+.web{
+	height: 118px;
 }
 
 .board {
@@ -128,6 +161,7 @@ hr {
 	float: left;
 	background-size: 40px;
 	border: 1px solid #CECECE;
+	image-rendering: auto;
 }
 
 .sms_text{
@@ -276,8 +310,58 @@ a {
 .tagT{
 	margin-left: 8px;
 }
+
 .tagTNum{
 	font-size: 12px;
 	margin-left: 4px;
 	color: #929292;
+}
+
+.fulledImage {
+	position: fixed;
+	overflow-y: auto;
+	overflow-x: hidden;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	z-index: 3000;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.75);
+	display: none;
+}
+
+.sizedImage {
+	position: relative;
+	background-position: center center;
+	background-repeat: no-repeat;
+	z-index: 3000;
+	border: 2px solid #17604E;
+	height: 80%;
+	width: 90%;
+	background-color: #FFF;
+	background-size: contain;
+	min-height: 150px;
+	max-height: 400px;
+	image-rendering: auto;
+	
+	min-width: 300px;
+	max-width: 700px;
+	
+	min-height: 150px;
+	max-height: 400px;
+	cursor: zoom-out;
+	
+	margin:0 auto;
+	margin: auto;
+  	position: absolute;
+  	top: 0; 
+  	left: 0; 
+  	bottom: 0; 
+  	right: 0;
+  	border-radius: 0px 0px 0px 16px;
+}
+
+#public {
+	border-radius: 0px 0px 0px 16px;	
 }

@@ -9,6 +9,10 @@ $("#public").click(function() {
 	}
 });
 
+$("#maxImage").click(function() {
+	$("#maxImage").hide();
+});
+
 $(document).ready(function() {
     $("#private").keydown(function (e) {
     	var lenght = $("#private").val().length;
@@ -28,7 +32,11 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $("#sms").keyup(function (e) {
-    	var length = 64 - $("#sms").val().length;
+    	var mms = 0;
+    	if($("#mms").val().length > 0){
+    		mms = 9;
+    	}
+    	var length = 64 - $("#sms").val().length - mms;
     	$("#chars").prop('value', length + " characters");
 		if(length < 64 && length > -1){
         	$("#send").prop('disabled', false);
@@ -37,4 +45,16 @@ $(document).ready(function() {
         }
     	return;
     });
+});
+
+$(document).ready(function() {
+	$("#mms").keyup(function (e) {
+		if($("#mms").val().length > 0){
+			var length = 64 - $("#sms").val().length - 9;
+		} else {
+			var length = 64 - $("#sms").val().length;
+		}
+		$("#chars").prop('value', length + " characters");
+		return;
+	});
 });
